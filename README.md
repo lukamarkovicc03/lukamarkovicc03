@@ -23,8 +23,6 @@
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Anthropic Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 
 ---
@@ -37,7 +35,7 @@
 
 Web sajt digitalne agencije Atrigen sa AI chatbot-om koji odgovara na pitanja klijenata i preporučuje pakete iz cenovnika. 17 stranica, bilingual SR/EN, statički generisan na Cloudflare Pages.
 
-**Stack:** Astro 6, TypeScript, Tailwind v4, Cloudflare Pages + D1 + KV + Vectorize + Workers AI, Google Gemini 2.5 Flash-Lite, Resend.
+**Stack:** Astro 6, TypeScript, Tailwind v4, Cloudflare Pages + D1 + KV + Vectorize + Workers AI, Resend.
 
 🔗 **Live:** [atrigen.rs](https://atrigen.rs) · 📂 **Showcase:** [atrigen-website-showcase](https://github.com/lukamarkovicc03/atrigen-website-showcase)
 
