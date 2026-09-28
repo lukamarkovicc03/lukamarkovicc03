@@ -41,15 +41,15 @@ Web sajt digitalne agencije Atrigen sa AI chatbot-om koji odgovara na pitanja kl
 
 ---
 
-### [Qwickbot: AI chatbot SaaS](https://github.com/lukamarkovicc03/qwickbot-showcase)
+### [AtriBot: AI chatbot SaaS](https://github.com/lukamarkovicc03/atribot-showcase)
 
-[![Qwickbot widget](https://raw.githubusercontent.com/lukamarkovicc03/qwickbot-showcase/main/screenshots/03-widget-desktop.webp)](https://github.com/lukamarkovicc03/qwickbot-showcase)
+[![AtriBot widget](https://raw.githubusercontent.com/lukamarkovicc03/atribot-showcase/main/screenshots/03-widget-desktop.webp)](https://github.com/lukamarkovicc03/atribot-showcase)
 
 Multi-tenant SaaS koji uslužnim biznisima daje AI asistenta na sajtu, WhatsApp-u i Instagramu. Odgovara iz baze znanja biznisa (hibridni RAG sa rerankerom), hvata leadove i zakazuje termine u Google Calendar.
 
 **Stack:** Cloudflare Workers + D1 + KV + R2 + Vectorize + Workers AI, TypeScript, Astro dashboard, Go + Docker (WhatsApp), Google Calendar API, Resend.
 
-🔗 **Live:** [app.qwickbotai.com](https://app.qwickbotai.com) · 📂 **Showcase:** [qwickbot-showcase](https://github.com/lukamarkovicc03/qwickbot-showcase)
+🔗 **Live:** [app.atribotai.com](https://app.atribotai.com) · 📂 **Showcase:** [atribot-showcase](https://github.com/lukamarkovicc03/atribot-showcase)
 
 ---
 
