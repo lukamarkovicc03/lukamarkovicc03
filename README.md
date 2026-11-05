@@ -1,60 +1,37 @@
-<h1 align="center">Luka Marković</h1>
+# Luka Marković
 
-<p align="center">
-  Full-stack developer & founder. Pravim sajtove, AI rešenja i marketinške alate u <a href="https://atrigen.rs"><b>Atrigenu</b></a>.
-</p>
+I run [Atrigen](https://atrigen.rs), a digital agency in Belgrade. We build websites for local businesses and take care of what comes after the launch: SEO, Google and Meta ads, and analytics. I also build AtriBot, an AI assistant that answers a business's customers from the business's own content.
 
-<p align="center">
-  <a href="https://atrigen.rs"><img src="https://img.shields.io/badge/Atrigen-Live-0a0a0a?style=flat-square" /></a>
-  <a href="mailto:luka.novi.mejl@gmail.com"><img src="https://img.shields.io/badge/Email-luka.novi.mejl@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
-</p>
+I write most of the code myself, from the front end down to the Cloudflare setup it runs on.
 
----
+## Projects
 
-## 🛠 Tech stack
+### AtriBot
 
-![Astro](https://img.shields.io/badge/Astro-FF5D01?style=flat-square&logo=astro&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+An AI assistant for service businesses such as salons and dental clinics. The business adds its services, prices and pages, and the assistant answers visitors on its website from that material only. When it does not know something, it says so instead of guessing. When a conversation turns into a lead, the owner gets an email with the whole exchange.
 
----
+Built on Cloudflare Workers, D1, R2 and Vectorize, with an Astro dashboard for the business owner.
 
-## 🚀 Featured Projects
+Live at [atribotai.com](https://atribotai.com). More in [atribot-showcase](https://github.com/lukamarkovicc03/atribot-showcase).
 
-### [Atrigen — Digitalna agencija](https://github.com/lukamarkovicc03/atrigen-website-showcase)
+### Atrigen website
 
-[![Atrigen home](https://raw.githubusercontent.com/lukamarkovicc03/atrigen-website-showcase/main/screenshots/01-home-desktop.webp)](https://atrigen.rs)
+The agency's own site, in Serbian and English: a page for each service, a price list, a blog, and AtriBot answering questions about services and prices. Every page is static HTML built with Astro and served from Cloudflare Pages.
 
-Web sajt digitalne agencije Atrigen sa AI chatbot-om koji odgovara na pitanja klijenata i preporučuje pakete iz cenovnika. 17 stranica, bilingual SR/EN, statički generisan na Cloudflare Pages.
+Live at [atrigen.rs](https://atrigen.rs). More in [atrigen-website-showcase](https://github.com/lukamarkovicc03/atrigen-website-showcase).
 
-**Stack:** Astro 6, TypeScript, Tailwind v4, Cloudflare Pages + D1 + KV + Vectorize + Workers AI, Resend.
+The source code of both projects is private. The linked repositories describe what they do and how they are built.
 
-🔗 **Live:** [atrigen.rs](https://atrigen.rs) · 📂 **Showcase:** [atrigen-website-showcase](https://github.com/lukamarkovicc03/atrigen-website-showcase)
+## How I work
 
----
+Every change goes through a pull request, and type checks, linting and tests run before it is merged. In AtriBot, each merge also goes to a staging environment first, and a production release is smoke-tested before it takes traffic. Decisions that would look strange a few months later are written down in the repository, so the reason does not get lost.
 
-### [AtriBot: AI chatbot SaaS](https://github.com/lukamarkovicc03/atribot-showcase)
+## Tools
 
-[![AtriBot widget](https://raw.githubusercontent.com/lukamarkovicc03/atribot-showcase/main/screenshots/03-widget-desktop.webp)](https://github.com/lukamarkovicc03/atribot-showcase)
+TypeScript, Astro, React, Next.js, Tailwind CSS, Node.js, Hono, Cloudflare (Workers, Pages, D1, KV, R2, Vectorize, Workers AI), SQLite, PostgreSQL, Python, Vitest, Playwright.
 
-Multi-tenant SaaS koji uslužnim biznisima daje AI asistenta na sajtu, WhatsApp-u i Instagramu. Odgovara iz baze znanja biznisa (hibridni RAG sa rerankerom), hvata leadove i zakazuje termine u Google Calendar.
+## Contact
 
-**Stack:** Cloudflare Workers + D1 + KV + R2 + Vectorize + Workers AI, TypeScript, Astro dashboard, Go + Docker (WhatsApp), Google Calendar API, Resend.
-
-🔗 **Live:** [app.atribotai.com](https://app.atribotai.com) · 📂 **Showcase:** [atribot-showcase](https://github.com/lukamarkovicc03/atribot-showcase)
-
----
-
-## 📫 Kontakt
-
-- 🌐 [atrigen.rs](https://atrigen.rs)
-- ✉️ luka.novi.mejl@gmail.com
-- 📱 +381 65 3246 736
+- Website: [atrigen.rs](https://atrigen.rs)
+- Email: info@atrigen.rs
+- Phone: +381 65 374 1300
